@@ -23,7 +23,7 @@ void DisplaySpellBook(SpellBook book)
     }
 }
 
-
+// function that iterates through allSpells array and returns string for books that are evil
 SpellBook MakeEvilSpellBook(List<Spell> allSpells)
 {
     SpellBook evilBook = new SpellBook();
@@ -34,6 +34,7 @@ SpellBook MakeEvilSpellBook(List<Spell> allSpells)
 }
 
 
+// function that iterates through allSpells array and returns string for books that are good
 SpellBook MakeGoodSpellBook(List<Spell> allSpells)
 {
     SpellBook goodBook = new SpellBook();
